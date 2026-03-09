@@ -1,0 +1,232 @@
+[
+  {
+    "id": 1,
+    "lvl": "Error",
+    "msg": "Super short message",
+    "time": "2026-03-09T15:13:27+0000",
+    "deep": {
+      "msg": "Deep msg"
+    },
+    "important": true
+  },
+  {
+    "id": 2,
+    "lvl": "Info",
+    "msg": "Mid long message, just to test it",
+    "time": "2026-03-09T15:13:27+0000",
+    "deep": {
+      "msg": "Deep msg"
+    },
+    "important": false
+  },
+  {
+    "id": 3,
+    "lvl": "Warning",
+    "msg": "A very long message, its crazy its almost too long...",
+    "time": "2026-03-09T15:13:27+0000",
+    "deep": {
+      "msg": "Deep msg"
+    },
+    "important": false
+  },
+  {
+    "id": 4,
+    "lvl": "Debug",
+    "msg": "Debugging information for system trace",
+    "time": "2026-03-09T15:14:32+0000",
+    "deep": {
+      "msg": "Debug trace"
+    },
+    "important": false
+  },
+  {
+    "id": 5,
+    "lvl": "Error",
+    "msg": "Database connection timeout occurred",
+    "time": "2026-03-09T15:15:45+0000",
+    "deep": {
+      "msg": "Connection failed"
+    },
+    "important": true
+  },
+  {
+    "id": 6,
+    "lvl": "Warning",
+    "msg": "Memory usage above threshold",
+    "time": "2026-03-09T15:16:12+0000",
+    "deep": {
+      "msg": "Resource warning"
+    },
+    "important": true
+  },
+  {
+    "id": 7,
+    "lvl": "Info",
+    "msg": "Application started successfully",
+    "time": "2026-03-09T15:17:01+0000",
+    "deep": {
+      "msg": "Startup complete"
+    },
+    "important": false
+  },
+  {
+    "id": 8,
+    "lvl": "Error",
+    "msg": "Authentication failed for user admin@example.com",
+    "time": "2026-03-09T15:18:23+0000",
+    "deep": {
+      "msg": "Auth error"
+    },
+    "important": true
+  },
+  {
+    "id": 9,
+    "lvl": "Debug",
+    "msg": "Query execution time: 245ms",
+    "time": "2026-03-09T15:19:05+0000",
+    "deep": {
+      "msg": "Performance metric"
+    },
+    "important": false
+  },
+  {
+    "id": 10,
+    "lvl": "Info",
+    "msg": "Data sync completed with 150 records updated",
+    "time": "2026-03-09T15:20:18+0000",
+    "deep": {
+      "msg": "Sync success"
+    },
+    "important": false
+  },
+  {
+    "id": 11,
+    "lvl": "Warning",
+    "msg": "Deprecated API endpoint usage detected",
+    "time": "2026-03-09T15:21:42+0000",
+    "deep": {
+      "msg": "API deprecation"
+    },
+    "important": true
+  },
+  {
+    "id": 12,
+    "lvl": "Error",
+    "msg": "File not found: /var/data/config.xml",
+    "time": "2026-03-09T15:22:09+0000",
+    "deep": {
+      "msg": "File error"
+    },
+    "important": true
+  },
+  {
+    "id": 13,
+    "lvl": "Info",
+    "msg": "User session initiated from IP 192.168.1.100",
+    "time": "2026-03-09T15:23:34+0000",
+    "deep": {
+      "msg": "Session start"
+    },
+    "important": false
+  },
+  {
+    "id": 14,
+    "lvl": "Warning",
+    "msg": "SSL certificate expires in 30 days",
+    "time": "2026-03-09T15:24:47+0000",
+    "deep": {
+      "msg": "Certificate warning"
+    },
+    "important": true
+  },
+  {
+    "id": 15,
+    "lvl": "Debug",
+    "msg": "Cache hit ratio: 87.3%",
+    "time": "2026-03-09T15:25:11+0000",
+    "deep": {
+      "msg": "Cache stats"
+    },
+    "important": false
+  },
+  {
+    "id": 16,
+    "lvl": "Error",
+    "msg": "Payment processing failed with status code 500",
+    "time": "2026-03-09T15:26:55+0000",
+    "deep": {
+      "msg": "Payment error"
+    },
+    "important": true
+  },
+  {
+    "id": 17,
+    "lvl": "Info",
+    "msg": "Backup completed successfully",
+    "time": "2026-03-09T15:27:22+0000",
+    "deep": {
+      "msg": "Backup success"
+    },
+    "important": false
+  },
+  {
+    "id": 18,
+    "lvl": "Warning",
+    "msg": "Disk space low: 5% remaining",
+    "time": "2026-03-09T15:28:40+0000",
+    "deep": {
+      "msg": "Disk warning"
+    },
+    "important": true
+  },
+  {
+    "id": 19,
+    "lvl": "Error",
+    "msg": "Null pointer exception in module PaymentHandler",
+    "time": "2026-03-09T15:29:18+0000",
+    "deep": {
+      "msg": "Runtime error"
+    },
+    "important": true
+  },
+  {
+    "id": 20,
+    "lvl": "Debug",
+    "msg": "Request headers: {Content-Type: application/json}",
+    "time": "2026-03-09T15:30:05+0000",
+    "deep": {
+      "msg": "Request debug"
+    },
+    "important": false
+  },
+  {
+    "id": 21,
+    "lvl": "Info",
+    "msg": "Email notification sent to 45 subscribers",
+    "time": "2026-03-09T15:31:27+0000",
+    "deep": {
+      "msg": "Email sent"
+    },
+    "important": false
+  },
+  {
+    "id": 22,
+    "lvl": "Warning",
+    "msg": "High CPU usage detected: 92%",
+    "time": "2026-03-09T15:32:44+0000",
+    "deep": {
+      "msg": "CPU warning"
+    },
+    "important": true
+  },
+  {
+    "id": 23,
+    "lvl": "Error",
+    "msg": "Service unavailable: API rate limit exceeded",
+    "time": "2026-03-09T15:33:52+0000",
+    "deep": {
+      "msg": "Rate limit error"
+    },
+    "important": true
+  }
+]
